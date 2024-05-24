@@ -1,0 +1,16 @@
+﻿<Page x:Class="test8.Pages.StartPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:test8.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="StartPage">
+
+    <Grid Background="White">
+        <Button x:Name="Yslygi" Content="Услуги" Height="140" Width="180" HorizontalAlignment="Left" Margin="60 0 0 0" Click="Yslygi_Click"/>
+        <Button x:Name="Zapis" Content="Запись" Height="140" Width="180" HorizontalAlignment="Right" Margin="0 0 60 0" Click="Zapis_Click"/>
+
+    </Grid>
+</Page>
